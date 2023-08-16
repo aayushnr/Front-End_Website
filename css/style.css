@@ -481,3 +481,28 @@ section{
         padding: 45px 3% 35px;
     }
 }
+@media (max-height: 550px) {
+    header{
+        padding: 10px 3%;
+    }
+    header.sticky{
+        padding: 5px 3%;
+    }
+    section{
+        padding: 30px 2% 25px;
+    }
+}
+@media (max-height: 470px) {
+    header{
+        padding: 8px 3%;
+    }
+    header.sticky{
+        padding: 3px 3%;
+    }
+    section{
+        padding: 35px 2% 25px;
+    }
+    .home{
+        height: 150vh;
+    }
+}
